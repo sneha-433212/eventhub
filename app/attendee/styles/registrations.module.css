@@ -1,0 +1,58 @@
+.container {
+  padding: 0px;
+  background: #f8fafc;
+  overflow-x: hidden;
+  width: 100%;             
+}
+
+.heading {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.tableCard {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+  max-width: 100%;         
+}
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.inputField {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.searchInput {
+  width: 250px;
+}
+
+.cancelButton {
+  background-color: #ef4444;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.cancelButton:hover {
+  background-color: #dc2626;
+}
+
+.noActionText {
+  color: #94a3b8;
+  font-size: 12px;
+  font-style: italic;
+}

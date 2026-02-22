@@ -1,0 +1,74 @@
+.card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+/* TOP ROW */
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* DATE BLOCK */
+.dateBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.day {
+  font-size: 24px;
+  font-weight: 700;
+  color: #5a5f66;
+}
+
+.redLine {
+  width: 28px;
+  height: 4px;
+  background-color: #8e2f65;
+  border-radius: 3px;
+  margin-top: 6px;
+}
+
+/* TIME */
+.time {
+  font-size: 12px;
+  color: #565b66;
+}
+
+/* MONTH YEAR */
+.monthYear {
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+/* TITLE */
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px 0 6px;
+}
+
+/* LOCATION */
+.location {
+  font-size: 13px;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+/* IMAGE */
+.image {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+}

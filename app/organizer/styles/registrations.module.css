@@ -1,0 +1,85 @@
+.tableCard {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  margin-top: 20px;
+  overflow-x: auto; 
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px; 
+}
+
+.tableHeaderRow {
+  text-align: left;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.tableRow {
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.tableCell {
+  padding: 12px;
+}
+
+.statusBadge {
+  padding: 4px 8px;
+  background: #e8f0fe;
+  color: #1a73e8;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.emptyCell {
+  padding: 20px;
+  text-align: center;
+  color: #888;
+}
+
+.skeletonRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 120px;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+
+.container {
+  padding: 24px 32px;
+}
+
+.container h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.heading {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.inputField {
+  padding: 8px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  min-height: 36px;
+}
+
+.searchInput {
+  width: 200px;
+}

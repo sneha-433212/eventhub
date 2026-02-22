@@ -1,0 +1,54 @@
+.container {
+  padding: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.topSection {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 380px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.details {
+  flex: 1;
+  min-width: 0;
+}
+
+.meta {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.sectionTitle {
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 6px;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+  .topSection {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .image {
+    width: 100%;
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Sneha Mondal",
+      "email": "sm433212@gmail.com",
+      "password": "$2b$08$/cB0YBOixnsemnOPSE1cUuxHDp9slbL.X1mBcFeqjZB6fPcjsJAO6",
+      "role": "organizer",
+      "isEmailVerified": true,
+      "otp": null,
+      "otpExpiry": null,
+      "resetToken": null,
+      "resetTokenExpiry": null
+    },
+    {
+      "id": 1770646376141,
+      "name": "Sima Mondal",
+      "email": "snehamondal.bitpastel@gmail.com",
+      "password": "$2b$08$2Ov7kq7uiNP5QrKFLC2LXOjKjKWtXCpyXWAJSFS88tD1k7sqWysUy",
+      "role": "attendee",
+      "isEmailVerified": true,
+      "otp": null,
+      "otpExpiry": null,
+      "resetToken": null,
+      "resetTokenExpiry": null
+    },
+    {
+      "id": 1771771374391,
+      "name": "anup roy",
+      "email": "mondalsneha46@gmail.com",
+      "password": "$2b$08$2QgrRs3qytYXd0UH6iUnyuVptlxL0KQiUv71uanNzgO/1ADiXVVfW",
+      "role": "attendee",
+      "isEmailVerified": true,
+      "otp": null,
+      "otpExpiry": null
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technology"
+    },
+    {
+      "id": 2,
+      "name": "Music"
+    },
+    {
+      "id": 3,
+      "name": "Sports"
+    }
+  ],
+  "events": [
+    {
+      "id": 1770706421295,
+      "organizerId": 1,
+      "categoryId": 2,
+      "title": "saregama karma",
+      "description": "hgui huhfhuifhioirgoibh jijioijijih hhijjjjjjjj",
+      "location": "Maheshtala, Kolkata Metropolitan Area, Thakurpukur Maheshtala, South 24 Parganas, West Bengal, 700141, India",
+      "eventDate": "2026-02-15T14:23",
+      "capacity": 3,
+      "registeredCount": 0,
+      "status": "published",
+      "imageUrl": "https://res.cloudinary.com/dzvas5qrb/image/upload/v1770706420/bhaqou39wvhkqplfgsfp.jpg",
+      "createdAt": "2026-02-10T06:53:41.295Z",
+      "updatedAt": "2026-02-12T18:20:44.652Z",
+      "cancelledAt": null,
+      "completedAt": null
+    },
+    {
+      "id": 1770715027111,
+      "organizerId": 1,
+      "categoryId": 3,
+      "title": "cricket",
+      "description": "jfhhuu kijfiiit jjioru",
+      "location": "Asansol, Paschim Bardhaman, West Bengal, India",
+      "eventDate": "2026-02-11T16:46",
+      "capacity": 10,
+      "registeredCount": 0,
+      "status": "published",
+      "imageUrl": "https://res.cloudinary.com/dzvas5qrb/image/upload/v1770715024/fen8nvyr6rw9ka8rpoms.png",
+      "createdAt": "2026-02-10T09:17:07.111Z",
+      "updatedAt": "2026-02-10T09:17:07.112Z",
+      "cancelledAt": null,
+      "completedAt": null
+    }
+  ],
+  "registrations": [
+    {
+      "id": 1770906075733,
+      "eventId": 1770706421295,
+      "userId": 1770646376141,
+      "status": "cancelled",
+      "registeredAt": "2026-02-12T14:21:15.733Z",
+      "cancelledAt": "2026-02-12T14:21:31.344Z"
+    },
+    {
+      "id": 1771766174534,
+      "eventId": "1770706421295",
+      "userId": 1770646376141,
+      "status": "registered",
+      "registeredAt": "2026-02-22T13:16:14.534Z"
+    }
+  ]
+}

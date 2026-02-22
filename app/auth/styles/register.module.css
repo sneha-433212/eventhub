@@ -1,0 +1,123 @@
+.container {
+  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 10, 30, 0.7);
+}
+
+
+.card {
+  position: relative;
+  z-index: 1;
+  width: 420px;
+  padding: 35px 30px;
+
+  background: rgba(0, 0, 0, 0.15); 
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+
+
+
+  box-shadow:
+    0 0 40px rgba(0, 0, 0, 0.6),
+    inset 0 0 30px rgba(255, 255, 255, 0.05);
+
+  color: #fff;
+  
+}
+
+.title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.input,
+.select {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 12px 5px;
+  margin-top: 18px;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.select {
+  appearance: none;
+  cursor: pointer;
+}
+
+.select option {
+  background: #111;
+  color: #fff;
+}
+
+.button {
+  width: 100%;
+  margin-top: 28px;
+  padding: 12px;
+  background: #9b4dca;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #7e3db3;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.centerText {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.centerText a {
+  color: #b57ee5;
+  text-decoration: none;
+}
+
+.centerText a:hover {
+  text-decoration: underline;
+}
+
+.errorText {
+  color: #ff6b6b;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+

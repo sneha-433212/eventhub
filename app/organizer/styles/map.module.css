@@ -1,0 +1,14 @@
+.mapWrapper {
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.mapContainer {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  z-index: 0; 
+}
