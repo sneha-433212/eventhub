@@ -70,17 +70,17 @@
     {
       "id": 1770715027111,
       "organizerId": 1,
-      "categoryId": 3,
+      "categoryId": "3",
       "title": "cricket",
       "description": "jfhhuu kijfiiit jjioru",
       "location": "Asansol, Paschim Bardhaman, West Bengal, India",
       "eventDate": "2026-02-11T16:46",
-      "capacity": 10,
+      "capacity": 13,
       "registeredCount": 0,
       "status": "published",
-      "imageUrl": "https://res.cloudinary.com/dzvas5qrb/image/upload/v1770715024/fen8nvyr6rw9ka8rpoms.png",
+      "imageUrl": "https://res.cloudinary.com/dzvas5qrb/image/upload/v1771774545/zdht4soumzoglqayucas.jpg",
       "createdAt": "2026-02-10T09:17:07.111Z",
-      "updatedAt": "2026-02-10T09:17:07.112Z",
+      "updatedAt": "2026-02-22T15:45:25.441Z",
       "cancelledAt": null,
       "completedAt": null
     }
